@@ -27,7 +27,7 @@ SECRET_KEY = 'o#38k*h60nu_#jj+)sq4msrpufkb!hee)&)+0*d%x))q_49&2-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://radiant-refuge-59241.herokuapp.com/']
 
 
 # Application definition
