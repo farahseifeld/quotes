@@ -27,8 +27,8 @@ SECRET_KEY = 'o#38k*h60nu_#jj+)sq4msrpufkb!hee)&)+0*d%x))q_49&2-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://radiant-refuge-59241.herokuapp.com/']
-
+#ALLOWED_HOSTS = ['radiant-refuge-59241.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -124,7 +124,6 @@ USE_L10N = True
 USE_TZ = True
 
 CORS_ORIGIN_ALLOW_ALL = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
